@@ -3,10 +3,6 @@ body {
     background-color: #1b1b1b;
 }
 
-.navbar-fixed-top {
-    left: 70%;
-}
-
 ul>li>a {
     font-size: 22px;
     font-family: monospace;
@@ -15,13 +11,15 @@ ul>li>a {
 
 .intro, .about, .portfolio, .contact {
     width: 100%;
-    height: 100vh;
     background-size: cover;
     background-image: url('image/intro-xl.jpg');
     background-attachment: fixed;
-    overflow: scroll;
+
 }
 
+.intro {
+  height: 100vh;
+}
 .name-intro {
     margin: 0 auto;
     padding-top: 25vh;
@@ -289,6 +287,15 @@ li>a:visited {
     text-align: center;
 }
 
+.ul-nav {
+    width: 50%;
+}
+
+#myNavbar {
+  text-align: right;
+  margin-left: 60%;
+}
+
 
 /* intro stuff */
 
@@ -334,7 +341,7 @@ h2.insetshadow {
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     padding-bottom: 20px;
-    
+
 }
 
 .bg-profile-top>h3 {
@@ -683,7 +690,7 @@ h2.insetshadow {
 }
 
 .fa.fa-linkedin:hover {
-    color: navy;
+    color: #00618A;
 }
 
 .fa.fa-github:hover {
@@ -803,7 +810,8 @@ p{
 }
 
 .row-002 {
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /* Portfolio thumbnails effect */
